@@ -3,6 +3,9 @@
   "owner": {
     "name": "WARP Docs"
   },
+  "metadata": {
+    "description": "Documentation automation for the WARP Design System — write, audit and inventory component docs from Figma and the component source."
+  },
   "plugins": [
     {
       "name": "warp-docs-skills",
