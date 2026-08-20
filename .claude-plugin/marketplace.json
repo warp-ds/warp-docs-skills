@@ -1,0 +1,13 @@
+{
+  "name": "warp-docs",
+  "owner": {
+    "name": "WARP Docs"
+  },
+  "plugins": [
+    {
+      "name": "warp-docs-skills",
+      "source": "./",
+      "description": "Document, audit and inventory WARP Design System components from Figma."
+    }
+  ]
+}

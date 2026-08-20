@@ -1,0 +1,53 @@
+{
+  "docsRepo": "https://github.com/warp-ds/docs.git",
+  "docsPath": "warp-docs",
+  "figmaFile": "WARP - Components",
+  "figmaFileKey": "oHBCzDdJxHQ6fmFLYWUltf",
+  "defaultReferenceComponents": ["alert", "range-slider", "badge"],
+  "branchPrefix": "docs/",
+  "autoStartDevServer": false,
+  "autoGenerateManifest": true,
+  "imagePathPattern": "/components/{component}/{component}-variants-{variant}.svg",
+  "anatomyPathPattern": "/components/{component}/overview-anatomy.svg",
+  "doDontPathPattern": "/docs/components/{component}/DoDonts/{page}-{topic}-{do|dont}.svg",
+  "frameworks": ["react", "react-19", "vue", "elements", "android", "ios"],
+  "requiredSections": {
+    "overview": [
+      "title",
+      "ComponentsStatus",
+      "examples",
+      "general",
+      "variants",
+      "anatomy",
+      "component-questions"
+    ],
+    "usage": [
+      "title",
+      "ComponentsStatus",
+      "guidelines",
+      "when-to-use",
+      "when-not-to-use",
+      "behaviour",
+      "best-practices",
+      "component-questions"
+    ],
+    "accessibility": [
+      "title",
+      "ComponentsStatus",
+      "general",
+      "keyboard-interaction",
+      "screen-reader",
+      "visual-accessibility",
+      "platform-specific",
+      "testing",
+      "component-questions"
+    ]
+  },
+  "forbiddenOnPublishedPages": [
+    "InProgressStatus",
+    "coming soon",
+    "pending",
+    "TBD",
+    "to be added"
+  ]
+}

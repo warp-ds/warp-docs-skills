@@ -1,0 +1,27 @@
+{
+  "name": "figma-design-system-mcp",
+  "version": "2.0.0",
+  "description": "MCP server for accessing Figma Design System - enables Claude to read components, design tokens, and build UIs based on your design system",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "figma-design-system-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "mcp",
+    "figma",
+    "design-system",
+    "claude",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-fetch": "^3.3.2"
+  }
+}
