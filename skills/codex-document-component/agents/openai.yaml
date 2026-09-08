@@ -1,0 +1,4 @@
+interface:
+  display_name: "WARP component documentation"
+  short_description: "Write WARP docs with specialist agents and Figma"
+  default_prompt: "Use $codex-document-component to document a WARP component with specialist agents, checking the progress sheet, Jira, Figma, and implementation sources and reporting missing inputs."
