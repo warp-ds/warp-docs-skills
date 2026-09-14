@@ -40,6 +40,8 @@ Use `overview-anatomy.svg` for new vector anatomy assets, or `overview-anatomy.p
 
 Show the relevant component at a readable scale with restrained numbered callouts. Keep leaders clear of text and significant states. Numbers must agree with the prose legend, use one name per part, and distinguish optional or platform-specific parts. Do not label a decorative shape as a separately configurable API feature.
 
+Treat the annotation layer as a visual-system contract, not a place for component-specific styling. Match the established WARP anatomy treatment: solid circular markers and leader lines in `#BE3830`, white numerals, no marker outline, and the same red for every leader. Do not substitute dark markers, outlined markers, gray leaders, or a component's accent colour. Before exporting, render the draft beside the closest structurally equivalent current anatomy asset—use Select for form fields—and compare marker fill, numeral treatment, leader colour and weight, and apparent marker scale. A deliberate change to this treatment must be applied as a documented system-wide migration, never improvised in one illustration.
+
 Radio's `docs/components/radio/overview.md` uses a two-part numbered legend; Button's `docs/components/button/overview.md` demonstrates an anatomy capture from the rendered component. Inspect their actual images under `docs/public/components/` before choosing a visual treatment. Reuse the explanation method, not an unverified geometry or colour.
 
 ## Do/Don't pairs
