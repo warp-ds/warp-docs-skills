@@ -1,5 +1,7 @@
 # WARP Docs Skills for Claude Code
 
+ℹ️ Development of Warp has moved in-house. This repository is read-only.
+
 Three Claude Code skills that automate WARP Design System component documentation,
 plus the Figma MCP server they depend on.
 
